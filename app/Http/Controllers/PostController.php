@@ -65,7 +65,6 @@ class PostController extends Controller
 
     public function destroy($id)
     {
-       <form action='posts' onSubmit="return confirm('are you sure?')">
 
         Post::find($id)->delete();
         return redirect('posts');
