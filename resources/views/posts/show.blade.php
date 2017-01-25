@@ -21,6 +21,9 @@
 
             </tbody>
         </table>
+         <div>
+   <a href="{{url('/posts')}}" class="btn btn-primary">Back</a>
+</div>
     </div>
 
 @stop
