@@ -1,17 +1,50 @@
-@extends('app')
-@section('content')
-<div class ="container">
-     <div class="row">
-          <div class="col-md-12">
-             <div class="jumbotron">
-                 <h1>Welcome to my Blog</h1>
-                     <p>Encouraging sharing and learning</p>
-              <p><a class="btn btn-success" href="{{url('/posts/create')}}" role="button">create post</a></p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Blog</title>
+        <link rel="stylesheet">
+        <href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+
+        <style>
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-weight: 100;
+                font-family: 'Lato';
+            }
+
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .content {
+                text-align: center;
+                display: inline-block;
+            }
+
+            .title {
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+         <div class="content">
+                <div class="title">Laravel 5</div>
             </div>
-           <!-- <div class="col-md-3 col-md-0ffset-1">
-               <h2> Sidebar </h2>
-               <p1>About me here i am arti mukati</p1>
-             </div>-->  
 
+     </div>
 
-  @endsection
+    </body>
+</html>
